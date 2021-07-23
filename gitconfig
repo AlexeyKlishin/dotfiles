@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[alias]
+      co = checkout
+      ci = commit
+      st = status
+      br = branch
+      hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+      type = cat-file -t
+      dump = cat-file -p
+[user]
+	name = aklishin
+	email = aleksey.klishin@gmail.com
+[color]
+	ui = auto
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	autocrlf = input
+	safecrlf = true
