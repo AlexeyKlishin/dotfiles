@@ -142,3 +142,4 @@ alias got='git '
 alias get='git '
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+bindkey \^U backward-kill-line
