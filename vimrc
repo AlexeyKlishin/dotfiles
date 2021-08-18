@@ -15,6 +15,9 @@ Plugin 'yegappan/mru'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
+" Needs npm -g install instant-markdown-d
+" For npm, install node: brew install node
+Plugin 'instant-markdown/vim-instant-markdown'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
